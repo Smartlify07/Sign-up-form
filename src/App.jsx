@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SignUpForm from "./components/SignUpForm";
 import Success from "./components/Success";
+import heropattern from "../public/images/leaves.jpg";
 
 function App() {
   const [success, setSuccess] = useState(false);
@@ -10,7 +11,7 @@ function App() {
       <main className="flex flex-col py-6 justify-center min-h-screen lg:flex-row overflow-hidden">
         {!success && (
           <>
-            <div className="hidden rounded-s-xl relative w-1/3 bg-center bg-[url(./images/leaves.jpg)] before:rounded-s-xl before:bg-[#012622] before:absolute before:w-full before:h-full before:opacity-70  items-center justify-center  lg:flex lg:flex-col">
+            <div className="hidden rounded-s-xl relative w-1/3 bg-center bg-[url(../public/images/leaves.jpg)] before:rounded-s-xl before:bg-[#012622] before:absolute before:w-full before:h-full before:opacity-70  items-center justify-center  lg:flex lg:flex-col">
               <h1 className="z-10 text-3xl w-9/12  text-[#fff] font-bold tracking-wide lg:text-4xl lg:leading-[1.2em]">
                 Let&apos;s get started on your commitment journey
               </h1>
