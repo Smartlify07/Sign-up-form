@@ -40,8 +40,10 @@ const SignUpForm = ({ setSuccess }) => {
           }, 2000);
         }}
       >
-        <Form className=" border rounded-sm flex px-4 flex-col items-center justify-center gap-[16px] lg:px-6 lg:w-2/4">
-          <h1 className="text-3xl font-bold mb-2 text-[#012622]">Sign Up</h1>
+        <Form className=" border rounded-sm flex px-6 flex-col items-center justify-center gap-[16px] lg:px-6 lg:w-2/4">
+          <h1 className="text-3xl font-bold mb-2 mt-4 text-[#012622] lg:mt-0">
+            Sign Up
+          </h1>
 
           <div className="flex w-full flex-col  gap-3 lg:items-center lg:flex-row lg:justify-center">
             <TextInput
