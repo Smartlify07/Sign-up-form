@@ -1,7 +1,6 @@
 import { useState } from "react";
 import SignUpForm from "./components/SignUpForm";
 import Success from "./components/Success";
-import heropattern from "../public/images/leaves.jpg";
 
 function App() {
   const [success, setSuccess] = useState(false);
